@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+a{
+    text-decoration: none;
+}
+.top{
+    height: 1024px;
+    background-image: url('images/top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top__title{
+    max-width: 788.78px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+}
+.top__text{
+    max-width: 481px;
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.top__button{
+    margin-top: 42px;
+    width: 234.06px;
+    height: 48.6px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: background .3s;
+}
+.top__button:hover{
+    background: #EB443F;
+}
+.games{
+    background: #000915;
+}
+.games__list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 128px 0;
+    gap:32px;
+    list-style: none;
+}
+.games__box{
+    width: 378px;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 237px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    transition: all .3s;
+}
+.games__box:hover{
+    outline: 3px solid #44D2FF;
+}
+.games__box--1{
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url('images/game-1.jpg');
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+.games__box--2{
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url('images/game-2.jpg');
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+.games__box--3{
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url('images/game-3.jpg');
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
