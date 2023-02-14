@@ -57,16 +57,17 @@ a{
 .games{
     background: #000915;
 }
-.games__content{
+.games__list{
     display: flex;
     flex-wrap: wrap;
     padding: 128px 0;
     gap:32px;
+    list-style: none;
 }
-.game{
+.games__box{
     width: 378px;
-}
-.game__box{
+    display: block;
+    box-sizing: border-box;
     padding-top: 237px;
     padding-left: 32px;
     padding-bottom: 32px;
@@ -77,22 +78,22 @@ a{
     color: #FFFFFF;
     transition: all .3s;
 }
-.game__box:hover{
+.games__box:hover{
     outline: 3px solid #44D2FF;
 }
-.game__box--1{
+.games__box--1{
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url('images/game-1.jpg');
     border-radius: 16px;
     background-size: cover;
     background-position: center;
 }
-.game__box--2{
+.games__box--2{
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url('images/game-2.jpg');
     border-radius: 16px;
     background-size: cover;
     background-position: center;
 }
-.game__box--3{
+.games__box--3{
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url('images/game-3.jpg');
     border-radius: 16px;
     background-size: cover;
