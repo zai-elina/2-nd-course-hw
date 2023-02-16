@@ -99,3 +99,31 @@ a{
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width:767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top{
+        height: 735px;
+        text-align: center;
+    }
+    .top__title{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .top__text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .top__button{
+        margin-top: 32px;
+    }
+    .games__list{
+        justify-content: center;
+    }
+    .games__box{
+        width: 343px;
+    }
+}
