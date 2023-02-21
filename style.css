@@ -38,7 +38,9 @@ a{
     color: #FFFFFF;
 }
 .top__button{
-    margin-top: 42px;
+    margin-top: 44px;
+}
+.button{
     width: 234.06px;
     height: 48.6px;
     background: #9C0332;
@@ -51,7 +53,8 @@ a{
     color: #FFFFFF;
     transition: background .3s;
 }
-.top__button:hover{
+
+.button:hover{
     background: #EB443F;
 }
 .games{
@@ -100,6 +103,51 @@ a{
     background-position: center;
 }
 
+
+.seasons{
+    background: #000915;
+}
+.seasons__content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 235px 0;
+    justify-content: space-between;
+}
+.seasons__title{
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.seasons__subtitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    max-width: 584px;
+}
+.seasons__button{
+    margin-top: 32px;
+}
+@media (max-width:1024px){
+    .center{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+    .seasons__content{
+        justify-content: center;
+    }
+    .seasons__image{
+        margin-top: 40px;
+    }
+    .games__list{
+        justify-content: center;
+    }
+}
 @media (max-width:767px){
     .center{
         padding-left: 16px;
@@ -125,5 +173,22 @@ a{
     }
     .games__box{
         width: 343px;
+    }
+    .seasons__content{
+        padding: 51px 0 85px 0;
+        text-align: center;
+    }
+    .seasons__title{
+        font-size: 32px;
+        line-height: 39px;
+        margin-top: 0;
+    }
+    .seasons__subtitle{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .seasons__image img{
+        width: 344px;
+        margin-top: 64px;
     }
 }
