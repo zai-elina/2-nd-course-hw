@@ -31,49 +31,33 @@
 // alert(+a + +b);
 
 //Задание 5
-// let monthNumber = 10;
+let monthNumber = 3;
 
-// switch (monthNumber) {
-//     case 1:
-//         console.log('зима');
-//         break;
-//     case 2:
-//         console.log('зима');
-//         break;
-//     case 12:
-//         console.log('зима');
-//         break;
-//     case 3:
-//         console.log('весна');
-//         break;
-//     case 4:
-//         console.log('весна');
-//         break;
-//     case 5:
-//         console.log('весна');
-//         break;
-//     case 6:
-//         console.log('лето');
-//         break;
-//     case 7:
-//         console.log('лето');
-//         break;
-//     case 8:
-//         console.log('лето');
-//         break;
-//     case 9:
-//         console.log('осень');
-//         break;
-//     case 10:
-//         console.log('осень');
-//         break;
-//     case 11:
-//         console.log('осень');
-//         break;
-//     default:
-//         console.log('Не существует такого номера месяца');
-//         break;
-// }
+switch (monthNumber) {
+  case 1:
+  case 2:
+  case 12:
+    console.log("зима");
+    break;
+  case 3:
+  case 4:
+  case 5:
+    console.log("весна");
+    break;
+  case 6:
+  case 7:
+  case 8:
+    console.log("лето");
+    break;
+  case 9:
+  case 10:
+  case 11:
+    console.log("осень");
+    break;
+  default:
+    console.log("Не существует такого номера месяца");
+    break;
+}
 
 //Задание 7
 // let number = +prompt("Пожалуйста, введите любое число");
@@ -96,19 +80,19 @@
 // }
 
 //Задание 9
-let clientOS = 1;
-let clientDeviceYear = 2015;
+// let clientOS = 1;
+// let clientDeviceYear = 2015;
 
-if (clientDeviceYear >= 2015) {
-  if (clientOS === 0) {
-    console.log("Установите версию приложения для iOS по ссылке");
-  } else {
-    console.log("Установите версию приложения для Android по ссылке");
-  }
-} else {
-  if (clientOS === 0) {
-    console.log("Установите облегченную версию приложения для iOS по ссылке");
-  } else {
-    console.log("Установите облегченную версию приложения для iOS по ссылке");
-  }
-}
+// if (clientDeviceYear >= 2015) {
+//   if (clientOS === 0) {
+//     console.log("Установите версию приложения для iOS по ссылке");
+//   } else {
+//     console.log("Установите версию приложения для Android по ссылке");
+//   }
+// } else {
+//   if (clientOS === 0) {
+//     console.log("Установите облегченную версию приложения для iOS по ссылке");
+//   } else {
+//     console.log("Установите облегченную версию приложения для iOS по ссылке");
+//   }
+// }
