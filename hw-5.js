@@ -59,7 +59,12 @@
 
 //Задание 7
 function displayTheTimeOfYear(monthNumber) {
-  if (isNaN(monthNumber) || monthNumber < 0 || monthNumber > 12) {
+  if (
+    isNaN(monthNumber) ||
+    monthNumber < 0 ||
+    monthNumber > 12 ||
+    !Number.isInteger(monthNumber)
+  ) {
     return "Такого номера месяца не существует";
   } else if ((monthNumber >= 1 && monthNumber <= 2) || monthNumber === 12) {
     return "Зима";
@@ -71,4 +76,4 @@ function displayTheTimeOfYear(monthNumber) {
     return "Осень";
   }
 }
-console.log(displayTheTimeOfYear("о"));
+console.log(displayTheTimeOfYear(5));
