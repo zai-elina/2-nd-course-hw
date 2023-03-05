@@ -16,11 +16,10 @@
 
 //Задание 4
 // const matrix = [];
-// let m = 3;
-// let n = 3;
-// for (let row = 0; row < m; row++) {
+
+// for (let row = 0; row < 3; row++) {
 //     matrix[row] = [];
-//     for (let column = 0; column < n; column++) {
+//     for (let column = 0; column < 3; column++) {
 //        matrix[row][column] = 1;
 //     }
 // }
