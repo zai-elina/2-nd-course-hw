@@ -20,7 +20,7 @@ a{
     background-position: center;
 }
 .top__title{
-    max-width: 788.78px;
+    max-width: 760px;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -28,14 +28,16 @@ a{
     color: #FFFFFF;
     padding-top: 217px;
 }
-.top__text{
-    max-width: 481px;
-    margin-top: 32px;
+.text{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
+}
+.top__text{
+    max-width: 481px;
+    margin-top: 32px;
 }
 .top__button{
     margin-top: 44px;
@@ -103,7 +105,13 @@ a{
     background-position: center;
 }
 
-
+.heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
 .game{
     background: #000915;
 }
@@ -115,18 +123,8 @@ a{
 }
 .game__title{
     margin-top: 48px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    color: #FFFFFF;
 }
 .game__subtitle{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
     margin-top: 32px;
     max-width: 584px;
 }
@@ -145,18 +143,8 @@ a{
 
 .riddles__title{
     padding-top: 276px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    color: #FFFFFF;
 }
 .riddles__subtitle{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
     margin: 32px 0;
 }
 
@@ -217,7 +205,7 @@ a{
         font-size: 32px;
         line-height: 39px;
     }
-    .top__text{
+    .text{
         font-size: 14px;
         line-height: 22px;
     }
@@ -234,14 +222,12 @@ a{
         padding: 51px 0 85px 0;
         text-align: center;
     }
-    .game__title{
+    .heading{
         font-size: 32px;
         line-height: 39px;
-        margin-top: 0;
     }
-    .game__subtitle{
-        font-size: 14px;
-        line-height: 22px;
+    .game__title{
+        margin-top: 0;
     }
     .game__image img{
         width: 344px;
@@ -252,12 +238,6 @@ a{
     }
     .riddles__title{
         padding-top: 52px;
-        font-size: 32px;
-        line-height: 39px;
-    }
-    .riddles__subtitle{
-        font-size: 14px;
-        line-height: 22px;
     }
 }
 
