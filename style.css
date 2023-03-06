@@ -181,6 +181,7 @@ a{
     }
     .game__content{
         justify-content: center;
+        text-align: center;
     }
     .game__image{
         margin-top: 40px;
