@@ -4,15 +4,11 @@
 // const sum = (array) => array.reduce((sum, item) => sum + item);
 
 // function getResult(array, callback) {
-//   let result;
-//   result = callback(array);
-
-//   return result;
+//   return callback(array);
 // }
 
 // console.log(getResult ([3, 4, 1, 9], mult));
 // console.log(getResult ([3, 4, 1, 9], sum));
-
 
 //Задание 2
 // function getSortedArrayObj(users) {
@@ -38,25 +34,21 @@
 // ];
 // console.log(getSortedArrayObj(users));
 
-
 //Задание 3
-// const reversArr = array => array.reverse();
+// const reversArr = (array) => array.reverse();
 
-// const toNumberArr = array => {
-//   array = array.map(value => +value).filter(value => !isNaN(value));
-//   return array;
-// };
+// const toNumberArr = (array) =>
+//   (array.map((value) => +value).filter((value) => !isNaN(value)));
 
-// const each = (array,callback) => {
+// const each = (array, callback) => {
 //   return callback(array);
 // };
 
-// const arr1 = [1, '4', 9, 'two'];
+// const arr1 = [1, "4", 9, "two"];
 // console.log(each(arr1, reversArr));
 
-// const arr2 = [1, '4', false, 9, 'two'];
+// const arr2 = [1, "4", false, 9, "two"];
 // console.log(each(arr2, toNumberArr));
-
 
 //Задание 4
 // function getdate(){
@@ -73,21 +65,20 @@
 
 // getdate();
 
-
 //Задание 5
 function calling(callback) {
-  console.log('Звоню!');
-};
+  console.log("Звоню!");
+}
 
 function beeps(callback) {
   setTimeout(() => {
-      console.log('Идут гудки...');
-      callback();
+    console.log("Идут гудки...");
+    callback();
   }, 1000);
 }
 
 function talk() {
-  console.log('Разговор')
+  console.log("Разговор");
 }
 
 calling();
